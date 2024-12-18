@@ -29,11 +29,11 @@ Untuk menjawab pertanyaan tersebut, perusahaan akan membuat sebuah sistem rekome
 Berdasarkan tujuan atau goals yang sudah dijelaskan sebelumnya, maka akan dibuat sebuah sistem rekomendasi dengan alur sebagai berikut:
 
 1. Data Understanding, merupakan tahap awal proyek untuk memahami data yang dimiliki. Dalam kasus ini, terdapat 3 file terpisah mengenai informasi tentang users, ratings, dan books. Pada tahap ini, ada beberapa tahapan untuk memahami data antara lain:
-  a. Data loading, yaitu membaca data langsung dari dataset untuk mengetahui isi atau informasi yang ada di dalam dataset tersebut.
+    a. Data loading, yaitu membaca data langsung dari dataset untuk mengetahui isi atau informasi yang ada di dalam dataset tersebut.
 
-  b. Univariate Exploratory Data Analysis. Pada tahap ini akan dilakukan analisis dan eksplorasi setiap variabel pada data.
+    b. Univariate Exploratory Data Analysis. Pada tahap ini akan dilakukan analisis dan eksplorasi setiap variabel pada data.
 
-  c. Data Preprocessing. Ini merupakan tahap persiapan data sebelum data digunakan untuk proses selanjutnya. Pada tahap ini, akan dilakukan penggabungan beberapa file sehingga menjadi satu kesatuan file yang utuh dan siap digunakan dalam tahap pemodelan.
+    c. Data Preprocessing. Ini merupakan tahap persiapan data sebelum data digunakan untuk proses selanjutnya. Pada tahap ini, akan dilakukan penggabungan beberapa file sehingga menjadi satu kesatuan file yang utuh dan siap digunakan dalam tahap pemodelan.
 
 3. Data Preparation. Pada tahap ini, data dipersiapkan dan dilakukan beberapa teknik seperti mengatasi missing value dan menyamakan nomor ISBN buku. Pada sistem rekomendasi berbasis konten (content-based filtering) yang akan dikembangkan, satu nomor ISBN mewakili         satu kategori buku. Oleh karena itu, perlu pengecekan ulang dan memastikan setiap buku hanya memiliki satu nomor ISBN.
 2. Modeling. Pada proses pengembangan model akan menggunakan dua metode sebagai berikut:
