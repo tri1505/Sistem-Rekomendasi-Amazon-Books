@@ -88,9 +88,15 @@ Pada bagian ini, dataset langsung di import dari situs kaggle sebagai berikut:
 
 ![data_loading](https://github.com/user-attachments/assets/fae57dfc-e38b-4e56-9068-81d070b48da0)
 
-ISBN	Book-Title	Book-Author	Year-Of-Publication	Publisher	Image-URL-S	Image-URL-M	Image-URL-L
-182889	0812545370	Jitterbug : A Novel of Detroit (Detroit Series)	Loren D. Estleman	2000	Forge Books	http://images.amazon.com/images/P/0812545370.0...	http://images.amazon.com/images/P/0812545370.0...	http://images.amazon.com/images/P/0812545370.0...
-225602	0060231920	Me, me, me, me, me: Not a novel (Charlotte Zol...	M. E Kerr	1983	Harper &amp; Row	http://images.amazon.com/images/P/0060231920.0...	http://images.amazon.com/images/P/0060231920.0...	http://images.amazon.com/images/P/0060231920.0...
-125846	0375756280	Cracking the Lsat: 2001 (Cracking the Lsat)	Adam Robinson	2000	Princeton Review	http://images.amazon.com/images/P/0375756280.0...	http://images.amazon.com/images/P/0375756280.0...	http://images.amazon.com/images/P/0375756280.0...
-193688	0140240292	Excursions in the Real World: Memoirs	William Trevor	1995	Penguin Books	http://images.amazon.com/images/P/0140240292.0...	http://images.amazon.com/images/P/0140240292.0...	http://images.amazon.com/images/P/0140240292.0...
-29114	0671024086	Mesmerized	Gayle Lynds	2002	Pocket Star	http://images.amazon.com/images/P/0671024086.0...	http://images.amazon.com/images/P/0671024086.0...	http://images.amazon.com/images/P/0671024086.0...
+**Tabel 1. Tampilan dari Dataset Books**
+
+![books_dataset](https://github.com/user-attachments/assets/a7a8f5d7-3a9c-4f0a-a79a-ae4ed1dda432)
+
+**Tabel 2. Tampilan dari dataset Ratings**
+
+![dataset_rating](https://github.com/user-attachments/assets/c65f0e93-89aa-4a4d-8c99-5533bd2aeffd)
+
+**Tabel 3. Tampilan dari dataset Users**
+
+![dataset_user](https://github.com/user-attachments/assets/a0bcc865-8b14-4dfc-8422-d0c433cc9a76)
+
