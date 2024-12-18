@@ -98,5 +98,5 @@ Pada bagian ini, dataset langsung di import dari situs kaggle sebagai berikut:
 
 **Tabel 3. Tampilan dari dataset Users**
 
-![dataset_user](https://github.com/user-attachments/assets/a0bcc865-8b14-4dfc-8422-d0c433cc9a76)
+![dataset_user](https://github.com/user-attachments/assets/7e5161e7-3b68-4abe-8e28-66f73c96ea21)
 
