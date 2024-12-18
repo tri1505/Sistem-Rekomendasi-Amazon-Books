@@ -7,6 +7,6 @@ Sistem rekomendasi pada Amazon Books menggunakan dua pendekatan utama: **Content
 
 **Content-Based Filtering:** Pendekatan ini bekerja dengan menganalisis atribut konten buku seperti genre, penulis, kata kunci, dan sinopsis. Berdasarkan preferensi pengguna yang telah diketahui (misalnya, pengguna sering membeli buku fiksi ilmiah), sistem akan merekomendasikan buku dengan atribut serupa.
 
-**Collaborative Filtering:** Pendekatan ini lebih berfokus pada pola perilaku dan preferensi dari sejumlah besar pengguna. Ada dua tipe utama:
+**Collaborative Filtering:** Pendekatan ini lebih berfokus pada pola perilaku dan preferensi dari sejumlah besar pengguna.
 
 
