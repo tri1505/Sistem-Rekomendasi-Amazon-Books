@@ -51,6 +51,36 @@ Data yang digunakan pada proyek ini adalah [Books Dataset](https://www.kaggle.co
 
 ![books_dataset](https://github.com/user-attachments/assets/ab0a05f8-3acb-4d34-9f6b-723363bfea4e)
 
-Book Recommendation Dataset terdiri dari 3 file/dataset terpisah yaitu Books, Ratings, dan Users dalam format file CSV (Comma Separated Values). Dataset books terdiri 271.360 baris dan 8 kolom yang berisi informasi tentang buku antara lain nomor ISBN, judul buku, author, tahun publikasi, penerbit, dan 3 kolom untuk link URL gambar buku yang tersedia dalam 3 jenis ukuran yaitu Image-URL-S (small), Image-URL-M (medium), dan Image-URL-L (large). Dataset ratings terdiri dari 1.149.780 baris dan 3 kolom yang berisi informasi user ID atau pengguna, nomor ISBN dan peringkat buku yang berasal dari pengguna. Kemudian, dataset users yang terdiri dari 278.858 baris dan 3 kolom yang berisi informasi user ID atau pengguna, lokasi pengguna, dan usia pengguna. 
+Book Recommendation Dataset terdiri dari 3 file/dataset terpisah yaitu Books, Ratings, dan Users dalam format file CSV (Comma Separated Values). Dataset books terdiri 271.360 baris dan 8 kolom yang berisi informasi tentang buku antara lain nomor ISBN, judul buku, author, tahun publikasi, penerbit, dan 3 kolom untuk link URL gambar buku yang tersedia dalam 3 jenis ukuran yaitu Image-URL-S (small), Image-URL-M (medium), dan Image-URL-L (large). Dataset ratings terdiri dari 1.149.780 baris dan 3 kolom yang berisi informasi user ID atau pengguna, nomor ISBN dan peringkat buku yang berasal dari pengguna. Kemudian, dataset users yang terdiri dari 278.858 baris dan 3 kolom yang berisi informasi user ID atau pengguna, lokasi pengguna, dan usia pengguna.
+
+### **Variabel - variabel pada Book Recommendation Dataset adalah sebagai berikut:**
+### **Variabel pada dataset Books:**
+
+1. ISBN : nomor ISBN (International Standard Book Number) dari buku.
+2. Book-Title : judul buku.
+3. Book-Author : nama penulis buku.
+4. Year-Of-Publication : tahun publikasi buku.
+5. Publisher : nama penerbit buku.
+6. Image-URL-S : ukuran gambar small (kecil) dari buku berupa link URL.
+7. Image-URL-M : ukuran gambar medium (sedang) dari buku berupa link URL.
+8. Image-URL-L : ukuran gambar large (besar) dari buku berupa link URL.
+
+### **Variabel pada dataset Ratings:**
+
+1. User-ID : kode unik untuk nama pengguna anonim yang memberikan penilaian.
+2. ISBN : nomor ISBN (International Standard Book Number) dari buku.
+3. Book-Rating : rating atau peringkat buku dari pengguna atau pembaca.
+
+### **Variabel pada dataset Users:**
+
+1. User-ID : kode unik untuk nama pengguna anonim.
+2. Location : lokasi pengguna.
+3. Age : usia pengguna.
+
+**Berikut adalah beberapa tahapan untuk memahami data:**
+
+1. Data Loading
+2. Univariate Exploratory Data Analysis
+3. Data Preprocessing
 
 
