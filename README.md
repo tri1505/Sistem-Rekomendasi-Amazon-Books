@@ -106,3 +106,9 @@ Pada tahap ini, akan dilakukan analisis dan eksplorasi pada setiap variabel untu
 - books : merupakan data yang berisi informasi buku.
 - ratings : merupakan rating atau peringkat yang diberikan ke buku oleh pengguna atau pembaca
 - users : merupakan informasi pengguna termasuk informasi demografisnya.
+
+**Books Variabel**
+
+Dengan menggunakan fungsi info(), diketahui bahwa dataset books sebagai berikut :
+
+![book_info](https://github.com/user-attachments/assets/e128b9e4-978f-423e-bb98-8deacc39e3ad)
