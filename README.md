@@ -47,7 +47,7 @@ Berdasarkan tujuan atau goals yang sudah dijelaskan sebelumnya, maka akan dibuat
 
 ### **Data Understanding**
 
-Data yang digunakan pada proyek ini adalah [Books Dataset](Book Recommendation Dataset](https://www.kaggle.com/datasets/saurabhbagchi/books-dataset) yang diunduh dari platform Kaggle. Menurut informasi dari sumber dataset, data dikumpulkan oleh Cai-Nicolas Ziegler dengan informasi sebagai berikut :
+Data yang digunakan pada proyek ini adalah [Books Dataset](https://www.kaggle.com/datasets/saurabhbagchi/books-dataset) yang diunduh dari platform Kaggle. Menurut informasi dari sumber dataset, data dikumpulkan oleh Cai-Nicolas Ziegler dengan informasi sebagai berikut :
 
 ![books_dataset](https://github.com/user-attachments/assets/ab0a05f8-3acb-4d34-9f6b-723363bfea4e)
 
