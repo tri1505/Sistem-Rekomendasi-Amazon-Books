@@ -119,3 +119,12 @@ Kemudian, langkah selanjutnya adalah menghapus variabel yang tidak diperlukan pa
 
 ![drop_book_pic](https://github.com/user-attachments/assets/2dc17980-6816-4dc3-910c-df1b0209af80)
 
+Setelah melalui proses penghapusan beberapa nilai dan fitur, dataset hanya tersisa 5 kolom saja, dengan masing - masing variabel memiliki entri sebagai berikut:
+
+- Jumlah nomor ISBN Buku: 271357
+- Jumlah judul buku: 242132
+- Jumlah penulis buku: 102021
+- Jumlah Tahun Publikasi: 116
+- Jumlah nama penerbit: 16805
+
+Perhatikan bahwa jumlah judul buku pada dataset yaitu 242.135 sedangkan jumlah nomor ISBN buku adalah 271.357, artinya ada beberapa buku yang tidak memiliki nomor ISBN, karena satu ISBN hanya boleh dimiliki oleh satu buku saja. Untuk Kasus ini nantinya dataset akan di filter agar setiap buku dipastikan memiliki satu nomor ISBN. Selanjutnya, dilakukan distribusi data untuk melihat 10 nama penulis teratas berdasarkan jumlah buku seperti terlihat pada Gambar 1.
