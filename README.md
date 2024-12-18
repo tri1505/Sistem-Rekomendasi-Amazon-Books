@@ -45,5 +45,7 @@ Berdasarkan tujuan atau goals yang sudah dijelaskan sebelumnya, maka akan dibuat
    c. **Evaluation**, merupakan tahap untuk mengukur kinerja model dan menilai sejauh mana model berhasil dalam mencapai tujuannya dan memperoleh kesamaan fitur. Pada tahap ini digunakan metrik berupa Precision, Recall, dan F1 Score untuk model dengan content based 
       filtering. Sedangkan, pada model dengan collaborative filtering akan menggunakan metrik Root Mean Squared Error (RMSE) sebagai metrik evaluasi model.
 
+   ### **Data Understanding**
+
 
 
