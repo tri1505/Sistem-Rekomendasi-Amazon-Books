@@ -86,4 +86,4 @@ Book Recommendation Dataset terdiri dari 3 file/dataset terpisah yaitu Books, Ra
 ### **Data Loading**
 Pada bagian ini, dataset langsung di import dari situs kaggle sebagai berikut:
 
-![books_dataset](https://github.com/user-attachments/assets/840fd0fd-c088-4e0f-bcc4-edf054863f5c)
+![data_loading](https://github.com/user-attachments/assets/fae57dfc-e38b-4e56-9068-81d070b48da0)
