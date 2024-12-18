@@ -90,7 +90,7 @@ Pada bagian ini, dataset langsung di import dari situs kaggle sebagai berikut:
 
 **Tabel 1. Tampilan dari Dataset Books**
 
-![books_dataset](https://github.com/user-attachments/assets/a7a8f5d7-3a9c-4f0a-a79a-ae4ed1dda432)
+![dataset_books](https://github.com/user-attachments/assets/5751b6ed-72b6-4933-954a-38ac8ce3d622)
 
 **Tabel 2. Tampilan dari dataset Ratings**
 
