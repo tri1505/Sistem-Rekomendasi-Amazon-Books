@@ -103,6 +103,6 @@ Pada bagian ini, dataset langsung di import dari situs kaggle sebagai berikut:
 ### **Univariate Exploratory Data Analysis**
 Pada tahap ini, akan dilakukan analisis dan eksplorasi pada setiap variabel untuk memahami distribusi dan karakteristik individu dari variabel tersebut. Pemahaman ini nantinya akan membantu dalam menentukan pendekatan atau algoritma yang cocok diterapkan pada data. Variabel - variabel pada Book Recommendation Dataset adalah sebagai berikut:
 
-books : merupakan data yang berisi informasi buku.
-ratings : merupakan rating atau peringkat yang diberikan ke buku oleh pengguna atau pembaca
-users : merupakan informasi pengguna termasuk informasi demografisnya.
+- books : merupakan data yang berisi informasi buku.
+- ratings : merupakan rating atau peringkat yang diberikan ke buku oleh pengguna atau pembaca
+- users : merupakan informasi pengguna termasuk informasi demografisnya.
