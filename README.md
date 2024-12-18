@@ -290,7 +290,7 @@ Tabel 12. Hasil top-N recommendation berupa 10 buku teratas yang direkomendasika
 Berdasarkan Tabel 11 dan Tabel 12, model telah berhasil membuat rekomendasi kepada user. Hasil tersebut adalah rekomendasi untuk user dengan id 32. Dari output tersebut, dapat dibandingkan antara 'Book with high ratings from user' dan 'Top 10 books recomendation' untuk user. Perhatikan, beberapa judul buku rekomendasi menyediakan nama penulis bukunya juga yang sesuai dengan rating user. Diperoleh 10 rekomendasi teratas buku yang disertai juga dengan nama penulisnya untuk user tersebut serta terdapat 1 judul buku yang merupakan buku dengan rating tertinggi dari user.
 
 ## **Evaluation**
-Evaluasi Model dengan Content Based Filtering
+### **Evaluasi Model dengan Content Based Filtering**
 Metrik yang digunakan untuk evaluasi model dengan content based filtering di proyek kali ini adalah Precision, Recall, dan F1-Score. Metrik ini adalah metrik yang umum digunakan untuk mengukur kinerja model. Precision merupakan rasio item yang revelan yang dihasilkan oleh model terhadap total item yang dihasilkan. Recall merupakan rasio item relevan yang dihasilkan oleh model terhadap total item yang seharusnya direkomendasikan. Sedangkan, F1 Score adalah gabungan dari Precision dan Recall, memberikan nilai tunggal yang mengukur keseimbangan antara keduanya. Berikut adalah rumus untuk menghitung Precision, Recall, dan F1 Score pada model sistem rekomendasi berbasis konten:
 
 ![f1score](https://github.com/user-attachments/assets/75348195-accf-4211-93b2-1f401f0c85fe)
@@ -306,3 +306,24 @@ Hasilnya disimpan dalam array predictions. Terakhir, digunakan fungsi precision_
 - F1-score: 1.0
 
 Berdasarkan hasil evaluasi, didapat nilai dari masing - masing metrik evaluasi yaitu precision, recall dan F1 Score. Nilai Precision didapat sebesar 1.0, artinya semua prediksi positif model adalah benar dan tidak terdapat false positive. Nilai recall didapat nilai 1.0 menunjukkan bahwa model berhasil mengidentifikasi sekitar 100% dari semua item yang sebenarnya relevan. Nilai F1 Score didapat sekitar 1.0 juga, ini menunjukkan keseimbangan yang baik antara precision dan recall dan model cenderung memberikan hasil yang sangat baik untuk kedua kelas (positif dan negatif). Kesimpulannya, berdasarkan hasil metrik evaluasi tersebut model bekerja dengan sangat baik dalam memberikan rekomendasi item dengan content based filtering.
+
+### **Evaluasi Model dengan Collaborative Filtering**
+Seperti yang sudah dilihat pada proses pelatihan model di bagian modeling. Metrik yang digunakan untuk melakukan evaluasi model pada model dengan Collaborative Filtering di proyek ini adalah Root Mean Squared Error (RMSE). RMSE adalah metrik evaluasi yang umum digunakan untuk mengukur seberapa baik model memprediksi nilai kontinu dengan membandingkan nilai prediksi dengan nilai sebenarnya. Dalam konteks collaborative filtering, RMSE biasanya digunakan untuk mengukur seberapa baik model kolaboratif dalam memprediksi preferensi pengguna terhadap item. RMSE didefinisikan dalam persamaan berikut:
+
+![rmse](https://github.com/user-attachments/assets/f34e0a64-7150-430c-a602-058542ac07d8)
+
+Keterangan:
+
+- N adalah jumlah prediksi.
+- yi adalah nilai sebenarnya dari preferensi pengguna terhadap item.
+- y_pred adalah prediksi model terhadap preferensi pengguna terhadap item.
+
+Berdasarkan hasil proses training model pada tahap modeling, diperoleh hasil pelatihan berupa informasi RMSE di data train dan validasi. Untuk melihat visualisai proses training model, dilakukan proses plot metrik evaluasi dengan matplotlib dan terlihat seperti Gambar 2.
+
+![model_metrics](https://github.com/user-attachments/assets/d71f2be7-dac2-4a11-887f-b421a6d09194)
+
+Gambar 2. Visualisasi dari metrik evaluasi model
+
+Berdasarkan Gambar 2 didapat hasil visualisasi metrik evaluasi RMSE terhadap model yang dikembangkan, terlihat hasil model konvergen pada epochs sekitar 50 dan berdasarkan plot metriks model terlihat memberikan nilai MSE yang cukup kecil. Dari proses ini, diperoleh nilai error akhir sebesar 0.2953 dan error pada data validasi sebesar 0.3385. Nilai tersebut menunjukkan hasil yang cukup baik untuk sistem rekomendasi yang dihasilkan. Semakin kecil nilai RMSE, semakin baik model dalam memprediksi preferensi pengguna terhadap item. Hal inilah yang menyebabkan hasil rekomendasi dari model cukup akurat.
+
+
